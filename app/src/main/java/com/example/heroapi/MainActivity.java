@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void SaveImageOnly(){
         File file = new File(imagePath);
+
     }
 
     private void Save(){
