@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:id="@+id/imgProfile"
+        android:src="@drawable/noimage"/>
 
     <EditText
         android:id="@+id/etName"
@@ -13,6 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:hint="Hero Name" />
+    
 
 
     <EditText
@@ -20,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="Hero Name" />
+        android:hint="Hero Description" />
 
     <Button
         android:layout_width="match_parent"
